@@ -1,0 +1,95 @@
+body * {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+
+body {
+    background-image: url('desktop/woodstockbackground.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+  }
+
+.scorekeeper {
+    background: white;
+  }
+
+.scorekeeper, li {
+    float: left;
+    padding: 0px 10px;
+    
+}
+
+.startQuiz {
+    background: white;
+}
+
+.startButton {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  }
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+h2 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.startQuiz {
+    text-align: center;
+}
+
+.quizForm {
+    display: none;
+}
+
+/*answer page styling*/
+
+.quizQuestions {
+background: white;
+
+}
+
+.submitQuestion {
+    margin: 0 0 500px 0;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    border: 0;
+}
+
+.quizQuestions {
+    background: white;
+}
+
+.answerOption {
+display: flex;
+justify-content: center;
+border: 1px solid #d3d3d3;
+padding: 10px;
+margin: 10px 200px 10px 200px
+}
+
+/*end page code*/
+
+.restartButton {
+    text-align: center;
+}
