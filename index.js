@@ -226,7 +226,7 @@ function giveFinalFeedback() {
         $('.quizForm').html(`<div class="finalFeedback">
         <h2>Congrats!</h2>
         <img scr=''>
-        <p>You got ${score} out of 10. You really know your stuff!</p>
+        <p>You got ${scoreNumber} out of 10. You really know your stuff!</p>
         <button type=button class="restartButton">Restart</button></div>`);
     }
 
@@ -234,7 +234,7 @@ function giveFinalFeedback() {
         $('.quizForm').html(`<div class="finalFeedback">
         <h2>Not bad!</h2>
         <img scr=''>
-        <p>You got ${score} out of 10. You're no rock and roll historian, but you're well on your way!</p>
+        <p>You got ${scoreNumber} out of 10. You're no rock and roll historian, but you're well on your way!</p>
         <button type=button class="restartButton">Restart</button></div>`);
     } 
     
@@ -242,7 +242,7 @@ function giveFinalFeedback() {
         $('.quizForm').html(`<div class="finalFeedback">
         <h2>Booooooooo!</h2>
         <img scr=''>
-        <p>You got ${score} out of 10. Time to brush up on your rock history.</p>
+        <p>You got ${scoreNumber} out of 10. Time to brush up on your rock history.</p>
         <button type=button class="restartButton">Restart</button></div>`);
     }
 }
